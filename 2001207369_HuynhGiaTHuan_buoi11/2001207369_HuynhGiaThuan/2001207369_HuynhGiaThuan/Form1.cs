@@ -17,7 +17,7 @@ namespace _2001207369_HuynhGiaThuan
     {
         SqlConnection con;
         SqlCommand cmd;
-        string str = "Data Source=QLNhanVien\\SQLEXPRESS;Initial Catalog=QL_VeXe;Integrated Security=True";
+        string str = "Data Source=LAPTOP-ALA9RHJO\\SQLEXPRESS\\SQLEXPRESS;Initial Catalog=QLNhanVien;Integrated Security=True";
         SqlDataAdapter adapter = new SqlDataAdapter();
         DataTable table = new DataTable();
      
